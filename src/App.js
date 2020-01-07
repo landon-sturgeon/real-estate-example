@@ -2,11 +2,14 @@ import React from 'react';
 
 import LandingPage from "./pages/landing-page/landing-page.component";
 
-import './App.style.scss';
+import { GlobalStyle } from "./global.style";
 
 function App() {
   return (
-    <LandingPage />
+    <div>
+      <GlobalStyle />
+      <LandingPage />
+    </div>
   );
 }
 
