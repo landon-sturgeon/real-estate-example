@@ -29,7 +29,6 @@ export const GlobalStyle = createGlobalStyle`
         font-weight: 300;
         line-height: 1.6;
         color: ${ COLORS.greyDark2 };
-        background-image: linear-gradient(to right bottom, ${ COLORS.primary }, ${ COLORS.primaryDark });
         background-size: cover;
         background-repeat: no-repeat;
         min-height: 100vh;
