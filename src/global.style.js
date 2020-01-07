@@ -25,7 +25,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        font-family: ${FONT.primary}, sans-serif;
+        font-family: ${FONT.display}, sans-serif;
         font-weight: 300;
         line-height: 1.6;
         color: ${ COLORS.greyDark2 };

@@ -1,10 +1,77 @@
 import React from "react";
 
-import { SiteFeaturesContainer } from "./site-features.style";
+import Sprite from "../../img/sprite.svg";
+
+import { 
+    SiteFeaturesContainer, 
+    FeatureItem,
+    FeatureIcon,
+    FeatureText
+ } from "./site-features.style";
+
+ import { Heading4 } from "../../scss/_typography.style";
 
 const SiteFeatures = () => (
     <SiteFeaturesContainer>
-        site features context
+        <FeatureItem>
+            <FeatureIcon>
+                <use xlinkHref={`${Sprite}#icon-global`}/>
+            </FeatureIcon>
+            <Heading4 isDark >World's Best luxury homes</Heading4>
+            <FeatureText>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus.
+            </FeatureText>
+        </FeatureItem>
+
+        <FeatureItem>
+            <FeatureIcon>
+                <use xlinkHref={`${Sprite}#icon-trophy`}/>
+            </FeatureIcon>
+            <Heading4 isDark >Only the best properties</Heading4>
+            <FeatureText>
+                Voluptatum mollitia quae. Vero ipsum sapiente molestias accusamus rerum sed a eligendi aut quia.
+            </FeatureText>
+        </FeatureItem>
+
+        <FeatureItem>
+            <FeatureIcon>
+                <use xlinkHref={`${Sprite}#icon-map-pin`}/>
+            </FeatureIcon>
+            <Heading4 isDark >All homes in top locations</Heading4>
+            <FeatureText>
+                Tenetur distinctio necessitatibus pariatur voluptatibus quidem consequatur harum.
+            </FeatureText>
+        </FeatureItem>
+
+        <FeatureItem>
+            <FeatureIcon>
+                <use xlinkHref={`${Sprite}#icon-key`}/>
+            </FeatureIcon>
+            <Heading4 isDark >New home in one week</Heading4>
+            <FeatureText>
+                Vero ipsum sapiente molestias accusamus rerum. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </FeatureText>
+        </FeatureItem>
+
+        <FeatureItem>
+            <FeatureIcon>
+                <use xlinkHref={`${Sprite}#icon-presentation`}/>
+            </FeatureIcon>
+            <Heading4 isDark >Top 1% realtors</Heading4>
+            <FeatureText>
+                Quidem consequatur harum, voluptatum mollitia quae. Tenetur distinctio necessitatibus pariatur voluptatibus.
+            </FeatureText>
+        </FeatureItem>
+
+        <FeatureItem>
+            <FeatureIcon>
+                <use xlinkHref={`${Sprite}#icon-lock`}/>
+            </FeatureIcon>
+            <Heading4 isDark >Secure payments on this site</Heading4>
+            <FeatureText>
+                Pariatur voluptatibus quidem consequatur harum, voluptatum mollitia quae.
+            </FeatureText>
+        </FeatureItem> 
     </SiteFeaturesContainer>
 );
 
