@@ -17,7 +17,7 @@ const SiteFeatures = () => (
             <FeatureIcon>
                 <use xlinkHref={`${Sprite}#icon-global`}/>
             </FeatureIcon>
-            <Heading4 isDark >World's Best luxury homes</Heading4>
+            <Heading4 >World's Best luxury homes</Heading4>
             <FeatureText>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus.
             </FeatureText>
@@ -27,7 +27,7 @@ const SiteFeatures = () => (
             <FeatureIcon>
                 <use xlinkHref={`${Sprite}#icon-trophy`}/>
             </FeatureIcon>
-            <Heading4 isDark >Only the best properties</Heading4>
+            <Heading4>Only the best properties</Heading4>
             <FeatureText>
                 Voluptatum mollitia quae. Vero ipsum sapiente molestias accusamus rerum sed a eligendi aut quia.
             </FeatureText>
@@ -37,7 +37,7 @@ const SiteFeatures = () => (
             <FeatureIcon>
                 <use xlinkHref={`${Sprite}#icon-map-pin`}/>
             </FeatureIcon>
-            <Heading4 isDark >All homes in top locations</Heading4>
+            <Heading4>All homes in top locations</Heading4>
             <FeatureText>
                 Tenetur distinctio necessitatibus pariatur voluptatibus quidem consequatur harum.
             </FeatureText>
@@ -47,7 +47,7 @@ const SiteFeatures = () => (
             <FeatureIcon>
                 <use xlinkHref={`${Sprite}#icon-key`}/>
             </FeatureIcon>
-            <Heading4 isDark >New home in one week</Heading4>
+            <Heading4>New home in one week</Heading4>
             <FeatureText>
                 Vero ipsum sapiente molestias accusamus rerum. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             </FeatureText>
@@ -57,7 +57,7 @@ const SiteFeatures = () => (
             <FeatureIcon>
                 <use xlinkHref={`${Sprite}#icon-presentation`}/>
             </FeatureIcon>
-            <Heading4 isDark >Top 1% realtors</Heading4>
+            <Heading4>Top 1% realtors</Heading4>
             <FeatureText>
                 Quidem consequatur harum, voluptatum mollitia quae. Tenetur distinctio necessitatibus pariatur voluptatibus.
             </FeatureText>
@@ -67,7 +67,7 @@ const SiteFeatures = () => (
             <FeatureIcon>
                 <use xlinkHref={`${Sprite}#icon-lock`}/>
             </FeatureIcon>
-            <Heading4 isDark >Secure payments on this site</Heading4>
+            <Heading4>Secure payments on this site</Heading4>
             <FeatureText>
                 Pariatur voluptatibus quidem consequatur harum, voluptatum mollitia quae.
             </FeatureText>
