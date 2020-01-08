@@ -15,7 +15,7 @@ export const FONT = {
 
 export const SHADOWS = {
     dark: "0 2rem 6rem rgba(0,0,0,0.7)",
-    light: "0 2rem 6rem rgba(0,0,0,0.2)"
+    light: "0 2rem 5rem rgba(0,0,0,0.2)"
 }
 
 const size = {
