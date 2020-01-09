@@ -10,7 +10,9 @@ const heading = css`
 
 export const Heading1 = styled.h1`
     ${ heading };
-    ${ marginBottom };
+    font-size: 4.5rem;
+    color: ${ COLORS.greyLight1 };
+    line-height: 1;    
 `;
 
 export const Heading2 = styled.h2`
