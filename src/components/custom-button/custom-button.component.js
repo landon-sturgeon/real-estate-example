@@ -4,7 +4,7 @@ import { CustomButtonContainer } from "./custom-button.style";
 
 const CustomButton = ({btnTitle}) => (
     <CustomButtonContainer>
-        { btnTitle }
+        {btnTitle}
     </CustomButtonContainer>
 );
 

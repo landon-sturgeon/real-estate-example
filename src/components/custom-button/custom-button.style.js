@@ -16,5 +16,5 @@ export const CustomButtonContainer = styled.button`
 
     &:hover {
         background-color: ${ COLORS.primaryDark };
-    }
+    };
 `;
