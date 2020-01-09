@@ -9,6 +9,13 @@ export const SidebarContainer = styled.div`
 
     display: flex;
     justify-content: center;
+    align-items: start;
+`;
+
+export const NavButtonContainer = styled.div`
+    &:hover {
+        cursor: pointer;
+    }
 `;
 
 export const NavButton = styled.button`

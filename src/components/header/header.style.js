@@ -24,15 +24,33 @@ export const HeaderLogo = styled.img`
 `;
 
 export const SeenOnText = styled.div`
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    align-items: center;
+    grid-column-gap: 1.5rem;
 
+    font-size: 1.6rem;
+    color: ${ COLORS.greyLight1 };
+
+    &::before,
+    &::after {
+        content: "";
+        height: 1px;
+        display: block;
+        background-color: currentColor;
+    }
 `;
 
 export const SeenOnLogoContainer = styled.div`
-
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 3rem;
+    justify-items: center;
 `;
 
 export const SeenOnLogo = styled.img`
     height: 2.5rem;
+    filter: brightness(70%);
 `;
 
 export const HeaderButton = styled.button`

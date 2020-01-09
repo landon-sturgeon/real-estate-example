@@ -1,10 +1,12 @@
 import React from "react";
 
-import { SidebarContainer, NavButton } from "./sidebar.style";
+import { SidebarContainer, NavButtonContainer, NavButton } from "./sidebar.style";
 
 const Sidebar = () => (
     <SidebarContainer>
-        <NavButton></NavButton>
+        <NavButtonContainer>
+            <NavButton></NavButton>
+        </NavButtonContainer>
     </SidebarContainer>
 );
 
